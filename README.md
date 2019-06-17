@@ -63,7 +63,7 @@ mkdir /myserver/logs
 # Preparar "nginx"
 cd /etc/nginx/ # Testear instalacion
 rm -rf /etc/nginx # Eliminar carpeta
-ln -s /myserver/nginx /etc/ //Crear link simbolico
+ln -s /myserver/nginx /etc/ #Crear link simbolico
 ```
 
 ## Deployar aplicaciones
